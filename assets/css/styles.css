@@ -1,0 +1,50 @@
+/*navbar decoration*/
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+#navbar {
+font-family: 'Mulish', sans-serif;
+background-color:transparent !important;
+color: #ffff;
+
+}
+.trn{
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: 99;
+}
+
+/*carousel styles*/
+
+.carousel-caption{
+    bottom: 18.75rem;
+}
+
+.tituloslider{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #ffff;
+}
+
+.textoslider{
+    font-size: 30px;
+}
+
+.btn{
+    background-color: #F27757;
+    color: #ffff;
+    font-size: 20px;
+}
+
+
+/*VIAJES*/
+#viajes{
+    background-color: #F5F2F0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.card-image-top{
+    max-width: 80px;
+    max-height: 80px;
+}
+
