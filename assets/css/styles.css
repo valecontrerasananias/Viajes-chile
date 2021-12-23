@@ -1,33 +1,61 @@
-/*navbar decoration*/
+/*navbar*/
 body{
     font-family: 'Mulish', sans-serif;
+   
 }
 
 #navbar {
 font-family: 'Mulish', sans-serif;
-background-color:transparent !important;
-color: #ffff;
+background-color: #ffff!important;
+color: #000!important;
+box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+z-index: 1;
 
 }
-.trn{
-    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
-    z-index: 99;
+#navbar a{
+color: #000;
 }
+
+.nav-item{
+    font-size: 1.16rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 0.8rem;
+    color: #000!important;
+  
+}
+
+.iconos{
+    letter-spacing: 0.6rem;
+}
+
+
+/*tooltip navbar*/
 
 /*carousel styles*/
 
+.carousel-item {
+    max-height:100vh;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+   }
+
+
 .carousel-caption{
-    bottom: 18.75rem;
+   position: absolute;
+   top: 60%;
+   transform: translateY(-50%);
+  
 }
 
 .tituloslider{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bolder;
     color: #ffff;
 }
 
 .textoslider{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .btn{
@@ -36,10 +64,15 @@ color: #ffff;
     font-size: 20px;
 }
 
+/*Presentacion*/
+#quienes-somos i{
+    color: #F27757;
 
-/*VIAJES*/
+}
+
+/*VIAJES background-color: #F5F2F0;*/
 #viajes{
-    background-color: #F5F2F0;
+   
     font-family: 'Mulish', sans-serif;
 }
 
