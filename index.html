@@ -34,7 +34,7 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
          
           <li class="nav-item">
-            <a class="nav-link" href="#quienes-somos">Quiénes somos</a>
+            <a class="nav-link" href="#quienes-somos">¿Quiénes somos?</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#viajes">Destinos</a>
@@ -64,10 +64,14 @@
         <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
 
   <!--CARRUSEL CAPTION-->
-        <div class="carousel-caption d-none d-sm-block">
+        <div class="carousel-caption">
+          <div class="container">
+          <div class="col-8 bg-custom d-none d-sm-block py-3 px-0">
             <h2 class="tituloslider">Explora Nuevos Lugares</h2>
             <p class="textoslider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, aliquam?</p>
             <a class="btn" href="#" role="button">Más info</a>
+          </div>
+        </div>
         </div>
     </div>
      
@@ -99,7 +103,7 @@
   <!--Presentación-->
   <section>
     <section id="quienes-somos" class="container d-none d-md-block text-center my-5 pt-3">
-        <h2 class="display-5 fw-bold my-4">Quiénes somos</h2>
+        <h2 class="display-5 fw-bold my-4">¿Quiénes somos?</h2>
         <p class="my-4 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</p>
 
     <div class="row pt-5">
@@ -126,57 +130,72 @@
   <!--Cards viajes-->
 
     <section id="viajes">
-       
-        <h1 class="display-4 fw-bold my-4 text-center pt-5" id="destinos">Destinos preferidos</h1>
+       <h1 class="display-4 fw-bold my-4 text-center pt-5" id="destinos">Destinos preferidos</h1>
 
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 my-4 pb-5">
-                    <div class="card">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="panqueques">
+                <div class="col-12 col-sm-12 col-md-3 my-4">
+                    <div class="card h-100 d-flex p-1 flex-column">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="torres-del-paine">
                         <div class="card-body">
-                            <h2 id="panqueques">PANQUEQUES CON MANJAR Y CREMA</h2>
-                            <p class="card-text" id="panquequestexto">Some quick example text to build on the card title
-                                and make up the bulk
-                                of
-                                the card's content.</p>
+                          <!--Iconos card-->
+                          <div class="pack pb-2">
+                            <i class="fas fa-plane"></i>
+                            <i class="fas fa-bus"></i>
+                            <i class="fas fa-bed"></i>
+                          </div>
+                            <h2>Parque Nacional Torres del Paine</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="btn precio">Desde $9999 p/p</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3 my-4">
-                    <div class="card">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="tiramisu">
+                    <div class="card h-100 d-flex p-1 flex-column">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="los-flamencos">
                         <div class="card-body">
-                            <h2 id="tiramisu">TIRAMISÚ</h2>
-                            <p class="card-text" id="tiramisutexto">Some quick example text to build on the card title
-                                and make up the bulk
-                                of
-                                the card's content.</p>
+                          <!--Iconos card-->
+                          <div class="pack pb-2">
+                            <i class="fas fa-plane"></i>
+                            <i class="fas fa-bus"></i>
+                            <i class="fas fa-bed"></i>
+                          </div>
+                            <h2>Los Flamencos Reserva Nacional</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="btn precio">Desde $9999 p/p</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-sm-12 col-md-3 my-4">
-                    <div class="card">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="plateada">
+                    <div class="card h-100 d-flex p-1 flex-column">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="chaxa-laguna">
                         <div class="card-body">
-                            <h2 id="plateada">PLATEADA</h2>
-                            <p class="card-text" id="plateadatexto">Some quick example text to build on the card title
-                                and make up the bulk
-                                of
-                                the card's content.</p>
+                          <!--Iconos card-->
+                          <div class="pack pb-2">
+                            <i class="fas fa-plane"></i>
+                            <i class="fas fa-bus"></i>
+                            <i class="fas fa-bed"></i>
+                          </div>
+                            <h2>Laguna Chaxa,<br>San Pedro de Atacama</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="btn precio">Desde $9999 p/p</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3 my-4">
-                  <div class="card">
-                      <img src="assets/img/card4.jpg" class="card-img-top" alt="plateada">
+                  <div class="card h-100 d-flex p-1 flex-column">
+                      <img src="assets/img/card4.jpg" class="card-img-top" alt="bosque-valdiviano">
                       <div class="card-body">
-                          <h2 id="plateada">PLATEADA</h2>
-                          <p class="card-text" id="plateadatexto">Some quick example text to build on the card title
-                              and make up the bulk
-                              of
-                              the card's content.</p>
+                        <!--Iconos card-->
+                        <div class="pack pb-2">
+                          <i class="fas fa-plane"></i>
+                          <i class="fas fa-bus"></i>
+                          <i class="fas fa-bed"></i>
+                        </div>
+                          <h2>Ecorregión Bosque Valdiviano</h2>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="btn precio">Desde $9999 p/p</p>
                       </div>
                   </div>
               </div>
@@ -185,9 +204,14 @@
         </div>
     </section>
 
+    <!--FORMULARIO-->
+    <section>
+    <div data-tf-widget="e7J32ozT" data-tf-iframe-props="title=Contacto" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+   </section>
 
+   <!--Footer-->
 
-
+   
 
 
 

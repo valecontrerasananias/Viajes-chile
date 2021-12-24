@@ -1,7 +1,6 @@
 /*navbar*/
 body{
     font-family: 'Mulish', sans-serif;
-   
 }
 
 #navbar {
@@ -28,9 +27,6 @@ color: #000;
 .iconos{
     letter-spacing: 0.6rem;
 }
-
-
-/*tooltip navbar*/
 
 /*carousel styles*/
 
@@ -64,20 +60,36 @@ color: #000;
     font-size: 20px;
 }
 
+
+.bg-custom{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffff;
+    border-radius: 1rem;
+}
+
 /*Presentacion*/
+
 #quienes-somos i{
     color: #F27757;
 
 }
 
-/*VIAJES background-color: #F5F2F0;*/
+/*CARDS VIAJES background-color: #F5F2F0;*/
+
 #viajes{
    
     font-family: 'Mulish', sans-serif;
 }
 
-.card-image-top{
-    max-width: 80px;
-    max-height: 80px;
+.card img{
+    max-width: 100%;
+    height: 15.6rem;
 }
+
+.card h2{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+/*FORMULARIO*/
 
