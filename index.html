@@ -44,7 +44,7 @@
             <a class="nav-link" href="#viajes">Destinos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
+            <a class="nav-link" href=".footer">Contacto</a>
           </li>
           
         </ul>
@@ -213,17 +213,40 @@
     <div data-tf-widget="e7J32ozT" data-tf-iframe-props="title=Contacto" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
    </section>
 
-   <!--Newsletter-->
+   <!--Newsletter/Modal trigger-->
    <section class="newsletter">
     <div class="container">
         <div class="row justify-content-center pt-5 mb-5">
             <div class="col-md -8 text-center">
-                <h1 class="heading mb-4" style="font-weight: bolder;">Suscríbete a nuestro newsletter</h1>
-                <button class="btn btn-outline-light me-3" type="button">Suscríbete aquí</button>
+                <h1 class="heading mb-4" style="font-weight: bolder;">No te pierdas las mejores ofertas de viajes</h1>
+                <p class="lead">Recibe ofertas, información sobre viajes y consejos de expertos directamente en tu bandeja de entrada.</p>
+                <button type="button" class="btn btn-outline-light me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Suscríbete aquí</button> 
             </div>
         </div>
     </div>
 </section>
+
+<!--MODAL BOOTSTRAP-->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suscríbete a nuestro newsletter</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Recibe ofertas, información sobre viajes y consejos de expertos directamente en tu bandeja de entrada.</p>
+        <label for="modal-email" class="form-label">Tu dirección de correo aquí:</label>
+        <input type="email" class="form-control" name="formulario" id="modal-email" placeholder="tucorreo@ejemplo.com">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>   
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!--footer-->
 <footer class="footer">
@@ -243,9 +266,6 @@
 </div>
 </div>
 </footer>
-
-
-
 
 <!--JQUERY-->
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
