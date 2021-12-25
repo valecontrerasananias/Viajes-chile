@@ -11,6 +11,7 @@ box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
 z-index: 1;
 
 }
+
 #navbar a{
 color: #000;
 }
@@ -24,8 +25,14 @@ color: #000;
   
 }
 
-.iconos{
+nav .iconos{
     letter-spacing: 0.6rem;
+}
+
+.viajes-chile{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
 }
 
 /*carousel styles*/
@@ -91,5 +98,28 @@ color: #000;
     font-size: 1.8rem;
 }
 
-/*FORMULARIO*/
+/*Footer*/
 
+footer {
+    background-color: #F27757;
+    color: #ffff;
+    padding: 1rem 2rem 3rem;
+
+}
+
+.iconos-footer{
+    letter-spacing: 0.6rem;
+}
+
+footer h3{
+    font-size: 30px;
+
+}
+
+.favicon-footer {
+    
+   letter-spacing: 0.5rem;
+  }
+  .favicon-footer a{
+      color: #ffff!important;
+  }
