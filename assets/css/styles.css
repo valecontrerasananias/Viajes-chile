@@ -1,3 +1,4 @@
+
 /*navbar*/
 body{
     font-family: 'Mulish', sans-serif;
@@ -35,18 +36,19 @@ nav .iconos{
     font-style: italic;
 }
 
-/*carousel styles*/
+/*carousel*/
 
 .carousel-item {
     max-height:100vh;
     background: no-repeat scroll center scroll;
     background-size: cover;
+    object-fit: cover;
    }
 
 
 .carousel-caption{
    position: absolute;
-   top: 60%;
+   top: 50%;
    transform: translateY(-50%);
   
 }
@@ -67,11 +69,17 @@ nav .iconos{
     font-size: 20px;
 }
 
-
-.bg-custom{
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #ffff;
-    border-radius: 1rem;
+.box{
+    max-width: 650px;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, .3);
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 /*Presentacion*/
@@ -98,12 +106,16 @@ nav .iconos{
     font-size: 1.8rem;
 }
 
+.pack i{
+    letter-spacing: 0.3rem;
+}
+
 /*Footer*/
 
 footer {
     background-color: #F27757;
     color: #ffff;
-    padding: 1rem 2rem 3rem;
+    
 
 }
 
