@@ -285,6 +285,38 @@ integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="ano
 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 crossorigin="anonymous"></script>
 
+
+<!-- Modal INICIO-->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Recibe nuestras últimas ofertas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ¿Te gustaría recibir notificaciones con nuestras últimas ofertas?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sí, quiero saber más!</button>
+        <button type="button" class="btn btn-primary">No, gracias</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--activación modal inicio-->
+<script>
+
+var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
+        setTimeout(() => {
+            myModal.show();
+        }, 1000);
+        setTimeout(() => {
+            myModal.hide();
+        }, 6000);
+</script>
+
 <!--Optional JS-->
 <script src="assets/js/app.js"></script>
 
